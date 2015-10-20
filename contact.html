@@ -64,7 +64,7 @@
                             <i class="fa fa-map-marker"></i>  34-26 Steinway Street Long Island City, NY, 11101
                         </p>
 
-                        <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>  <a href="#" data-animate-hover="pulse"><i class="fa fa-map-marker"></i></a>
+                        <p class="hidden-md hidden-lg"><a href="contact.html" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>  <a href="contact.html" data-animate-hover="pulse"><i class="fa fa-map-marker"></i></a>
 
 
                     </div>
@@ -93,8 +93,6 @@
 
                         <a class="navbar-brand home" href="index.html">
 
-                            <!--<h1 id="logo-text" class="hidden-xs hidden-sm" >Unique Beauty Salon</h1>-->
-                            <!--<h1 id="logo-text-small" class="visible-xs visible-sm" >Unique Beauty Salon</h1>-->
                             <img src="images/unilogo.png" alt="Universal logo" class="hidden-xs hidden-sm" id="mylogo">
                             <img src="images/unilogo.png"  alt="UniqueBrows" class="visible-xs visible-sm"><span class="sr-only">UniqueBrows - go to homepage</span>
                         </a>
@@ -111,20 +109,20 @@
 
                         <ul class="nav navbar-nav navbar-right">
 
+                            <li class="dropdown">
+                                <a href="index.html" >Welcome </a>
+                            </li>
+
+                            <li class="dropdown ">
+                                <a href="services.html">Services </a>
+                            </li>
+
+                            <li class="dropdown ">
+                                <a href="photos.html" >Photos </a>
+                            </li>
+
                             <li class="dropdown active">
-                                <a href="javascript: void(0)" class="dropdown-toggle" data-toggle="dropdown">Welcome </a>
-                            </li>
-
-                            <li class="dropdown ">
-                            </li>
-
-
-                            <li class="dropdown ">
-                                <a href="javascript: void(0)" class="dropdown-toggle" data-toggle="dropdown">Photos </a>
-                            </li>
-
-                            <li class="dropdown ">
-                                <a href="javascript: void(0)" class="dropdown-toggle" data-toggle="dropdown">Contact </a>
+                                <a href="javascript: void(0)" >Contact </a>
                             </li>
 
                         </ul>
@@ -159,7 +157,108 @@
         </div>
 
 
+        <section>
 
+            <div id="map" class="with-border">
+
+            </div>
+
+        </section>
+
+        <div id="content">
+            <div class="container" id="contact">
+
+                <section>
+                    <div class="row">
+                        <div class="col-md-8">
+
+                            <div class="heading">
+                                <h2>We are here to help you</h2>
+                            </div>
+
+                            <p class="lead">We're committed to your personal needs and providing an uplifting experience. We've created an environment where you your appointment will enjoyable, relaxing, and rejuvenating.</p>
+                            <p>Please feel free to contact us. We will respond back within 1 hour if no one is available.</p>
+
+                            <div class="heading">
+                                <h3>Contact form</h3>
+                            </div>
+
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="firstname">Firstname</label>
+                                            <input type="text" class="form-control" id="firstname">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="lastname">Lastname</label>
+                                            <input type="text" class="form-control" id="lastname">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="email">Email</label>
+                                            <input type="text" class="form-control" id="email">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="subject">Subject</label>
+                                            <input type="text" class="form-control" id="subject">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="message">Message</label>
+                                            <textarea id="message" class="form-control"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12 text-center">
+                                        <button type="submit" class="btn btn-template-main"><i class="fa fa-envelope-o"></i> Send message</button>
+
+                                    </div>
+                                </div>
+                                <!-- /.row -->
+                            </form>
+                        </div>
+
+                        <div class="col-md-4">
+
+
+                            <h3 class="text-uppercase">Address</h3>
+
+                            <p>34-26 Steinway Street
+                                <br>Long Island City, NY
+                                <br>11101
+                                <br>
+                                <strong>United States</strong>
+                            </p>
+
+                            <h3 class="text-uppercase">Store Hours</h3>
+                            <p>Open 7 Days</p>
+                            <span style="color: black">10 AM - 8:30 PM</span>
+                            <p></p>
+                            <p>We accept all major credit cards.</p>
+                            <p>Consultations are always complimentary.</p>
+                            <p>Walk-ins are more than welcome.</p>
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+                </section>
+
+            </div>
+            <!-- /#contact.container -->
+        </div>
+        <!-- /#content -->
 
 
 
@@ -271,7 +370,14 @@
 <!-- owl carousel -->
 <script src="js/owl.carousel.min.js"></script>
 
+<!-- gmaps -->
 
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
+<script src="js/gmaps.js"></script>
+<script src="js/gmaps.init.js"></script>
+
+<!-- gmaps end -->
 
 
 </body>
