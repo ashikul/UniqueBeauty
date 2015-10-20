@@ -36,3 +36,10 @@
     font-family: "Helvetica Neue";
     color: red;
 }
+
+#yelpreviews {
+    border: 1px solid #ccc;
+    background-color: #f9f2f4;
+    border-radius: 6px;
+
+}
