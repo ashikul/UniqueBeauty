@@ -308,40 +308,40 @@ ul.list-style-none {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.08em;
-  border-top: solid 5px transparent;
+  /*border-top: solid 5px transparent;*/
 }
 .navbar ul.nav > li > a:hover {
-  border-top: solid 5px #c27baa;
+  /*border-top: solid 5px #c27baa;*/
 }
 .navbar ul.nav > li.active > a,
 .navbar ul.nav > li.open > a {
   text-decoration: none !important;
-  border-top: solid 5px #934478;
+  /*border-top: solid 5px #934478;*/
 }
 @media (max-width: 768px) {
   .navbar ul.nav > li.active > a,
   .navbar ul.nav > li.open > a {
-    border-top-color: transparent;
+    /*border-top-color: transparent;*/
   }
   .navbar ul.nav > li > a:hover {
-    border-top-color: transparent;
+    /*border-top-color: transparent;*/
   }
 }
 .navbar.navbar-light ul.nav > li.active > a {
-  border-top: solid 5px #934478;
-  background: #fff !important;
-  color: #555555 !important;
+  /*border-top: solid 5px #934478;*/
+  /*background: #fff !important;*/
+  /*color: #555555 !important;*/
 }
 .navbar.navbar-light ul.nav > li.active > a:hover {
-  border-top: solid 5px #934478;
+  /*border-top: solid 5px #934478;*/
 }
 .navbar.navbar-light ul.nav > li > a:hover,
 .navbar.navbar-light ul.nav > li.open > a:hover,
 .navbar.navbar-light ul.nav > li > a:focus,
 .navbar.navbar-light ul.nav > li.open > a:focus {
-  border-top: solid 5px #c27baa;
-  background: #fff !important;
-  color: #555555 !important;
+  /*border-top: solid 5px #c27baa;*/
+  /*background: #fff !important;*/
+  /*color: #555555 !important;*/
 }
 .navbar ul.dropdown-menu {
   margin: 0;
@@ -2660,7 +2660,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
-  background-color: #eeeeee;
+  background-color: #eeeeee ;
 }
 .nav > li.disabled > a {
   color: #999999;
@@ -3074,7 +3074,8 @@ fieldset[disabled] .btn-template-primary.active {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #555555;
-  background-color: #e2c1d7;
+  background-color: #e2c1d7;]
+
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -3127,6 +3128,7 @@ fieldset[disabled] .btn-template-primary.active {
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #cccccc;
     background-color: transparent;
+
   }
 }
 .navbar-default .navbar-link {
